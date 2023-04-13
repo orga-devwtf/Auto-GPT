@@ -63,6 +63,8 @@ def execute_command(command_name, arguments):
                 return google_official_search(arguments["input"])
             else:
                 return google_search(arguments["input"])
+        elif command_name == "create_directory":
+            return create_directory(arguments["directory"])
         elif command_name == "memory_add":
             return memory.add(arguments["string"])
         elif command_name == "start_agent":
@@ -93,8 +95,7 @@ def execute_command(command_name, arguments):
         ####
         # Changes 
         ####
-        elif command_name == "create_directory":
-            return create_directory(arguments["directory"])
+
         ####
         # END CHANGES 
         ####

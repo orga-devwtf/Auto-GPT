@@ -93,13 +93,6 @@ def execute_command(command_name, arguments):
             return delete_file(arguments["file"])
         elif command_name == "search_files":
             return search_files(arguments["directory"])
-        ####
-        # Changes 
-        ####
-
-        ####
-        # END CHANGES 
-        ####
         elif command_name == "browse_website":
             return browse_website(arguments["url"], arguments["question"])
         # TODO: Change these to take in a file rather than pasted code, if

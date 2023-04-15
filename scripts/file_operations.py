@@ -46,7 +46,7 @@ def write_to_file(filename, text):
 
 
 def create_directory(directory):
-    """Write text to a file"""
+    """Create a directory"""
     try:
         directory = safe_join(working_directory, directory)
         if not os.path.exists(directory):

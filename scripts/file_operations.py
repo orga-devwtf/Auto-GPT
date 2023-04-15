@@ -43,7 +43,7 @@ def write_to_file(filename, text):
         return "File written to successfully."
     except Exception as e:
         return "Error: " + str(e)
-    
+
 
 def create_directory(directory):
     """Write text to a file"""

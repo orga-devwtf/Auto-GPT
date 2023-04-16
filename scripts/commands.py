@@ -6,7 +6,7 @@ import agent_manager as agents
 import speak
 from config import Config
 import ai_functions as ai
-from file_operations import read_file, write_to_file, append_to_file, delete_file, search_files
+from file_operations import read_file, write_to_file, append_to_file, delete_file, search_files, create_directory
 from execute_code import execute_python_file, execute_shell
 from json_parser import fix_and_parse_json
 from image_gen import generate_image
